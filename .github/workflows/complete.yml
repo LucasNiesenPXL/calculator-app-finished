@@ -1,4 +1,4 @@
-name: "Build Example"
+name: "Build Example2"
 
 on:
   workflow_dispatch:
