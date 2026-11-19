@@ -31,9 +31,6 @@ jobs:
           cat reports/test-report.txt
           
       - name: Better Test Reports Action
-        uses: mridang/action-test-reporter@v3.0.1
-        with:
-          name: Calculator Tests
-          results-path: "**/junit.xml"
-          list-tests: failed
-          fail-on-error: true
+        uses: mridang/action-test-reporter@v1.3.0
+        with:                  
+          coverage-file: false
