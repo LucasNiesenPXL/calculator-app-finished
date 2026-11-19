@@ -32,6 +32,6 @@ jobs:
         uses: mridang/action-test-reporter@v3
         with:
           name: Calculator Test Results
-          results-path: "**/junit.xml,**/test-results.json"
+          #results-path: "**/junit.xml,**/test-results.json"
           coverage-path: "coverage/lcov.info"
           fail-on-error: true
