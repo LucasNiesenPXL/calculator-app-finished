@@ -33,4 +33,7 @@ jobs:
       - name: Better Test Reports Action
         uses: mridang/action-test-reporter@v3.0.1
         with:
-          name: Calculator Test
+          name: Calculator Tests
+          results-path: "**/junit.xml"
+          list-tests: failed
+          fail-on-error: true
