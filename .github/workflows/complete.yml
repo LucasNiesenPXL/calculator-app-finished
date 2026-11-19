@@ -29,3 +29,6 @@ jobs:
           mkdir -p reports
           npm test --if-present > reports/test-report.txt 2>&1
           cat reports/test-report.txt
+          
+      - name: Better Test Reports Action
+        uses: mridang/action-test-reporter@v3.0.1
